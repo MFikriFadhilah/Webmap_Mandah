@@ -383,11 +383,11 @@ var initMap = function() {
   map.getPane('pane_PohonAdopsiMinastahura_4').style.zIndex = 1;
   map.getPane('pane_PohonAdopsiMinastahura_4').style['mix-blend-mode'] = 'normal';
 
-  layer_BatasKawasan = L.geoJson(json_BatasKawasan_Rokan,{
+  layer_BatasKawasan = L.geoJson(json_BatasKawasan_Mandah,{
     attribution: '',
     interactive: true,
-    dataVar: 'json_BatasKawasan_Rokan',
-    layerName: 'layer_BatasKawasan_Rokan',
+    dataVar: 'json_BatasKawasan_Mandah',
+    layerName: 'layer_BatasKawasan_Mandah',
     style: style_bataskawasan
   
     //pane: 'pane_PohonAdopsiMinastahura_4'
